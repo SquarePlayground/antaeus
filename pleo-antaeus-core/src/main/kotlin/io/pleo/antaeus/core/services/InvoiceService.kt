@@ -18,7 +18,7 @@ class InvoiceService(private val dal: AntaeusDal) {
         return dal.fetchInvoice(id) ?: throw InvoiceNotFoundException(id)
     }
 
-    fun updateStatus(id: Int, status: InvoiceStatus) {
-        return dal.updateInvoiceStatus(id, status)
+    fun updateInvoiceStatus(id: Int, status: InvoiceStatus) : Int {
+        return dal.updateInvoiceStatus(id = id, status = status)
     }
 }

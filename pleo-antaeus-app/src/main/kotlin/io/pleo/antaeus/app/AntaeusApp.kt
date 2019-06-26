@@ -65,5 +65,6 @@ fun main() = runBlocking {
         invoiceService = invoiceService,
         customerService = customerService
     ).run()
+    // Start the scheduleService Coroutine
     scheduleService.startPaymentCoroutine()
 }
