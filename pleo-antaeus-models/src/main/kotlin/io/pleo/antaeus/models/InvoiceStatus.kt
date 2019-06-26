@@ -2,5 +2,6 @@ package io.pleo.antaeus.models
 
 enum class InvoiceStatus {
     PENDING,
-    PAID
+    PAID,
+    DECLINED, // External supplier gives false charge value
 }
