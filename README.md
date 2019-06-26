@@ -42,8 +42,7 @@ Please let us know how long the challenge takes you. We're not looking for how s
 
 Happy hacking 😁!
 
-### Documentation
-
+## Documentation
 
 I had to make a few decisions for the timer and decided upon Coroutines as my method of scheduling.
 
@@ -73,8 +72,7 @@ The use of forEach is also evident which fits into the functional programming st
 Overall I'd say that Kotlin is an awesome language to work with and the IntelliJ IDEA is a great IDE to work with.
 
 Total time for this task was: 
-4 days of Plural Sight training to learn new Kotlin features and refresh myself on Java/JVM
-4-5 days coding on and off
+4 days of Plural Sight training to learn new Kotlin features and refresh myself on Java/JVM and 4-5 days coding on and off.
 
 
 ## How to run
